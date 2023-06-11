@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ChartModel } from "src/model/ChartModel";
-import { storeUtil, EventModel, TargetView, EventActionType, util } from "../../../../lib/dist";
+import { EventActionType, EventModel, TargetView, storeUtil, util } from "userevent_tracker";
 
 type TestData = {
   [key: string]: number;
