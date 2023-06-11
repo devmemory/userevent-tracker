@@ -1,6 +1,6 @@
 {
   "name": "userevent_tracker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This library is to track users' events such as click, page, etc",
   "scripts": {
     "build": "rm -rf dist && tsc && tsc --build tsconfig.json",
