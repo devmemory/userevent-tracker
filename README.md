@@ -57,3 +57,7 @@ storeUtil.clearTrackData()
 ```
 
 4. You can do whatever you want with this data.
+- For example, you can show how long they stayed in specific url path. And how much they clicked something like below charts.
+![staying_time](https://github.com/devmemory/userevent_tracker/assets/71013471/c76c99e7-98b3-41c0-a600-3337ccc8fb1e)
+
+![clicked](https://github.com/devmemory/userevent_tracker/assets/71013471/13d97e42-36e9-44af-a72e-97777523c544)
