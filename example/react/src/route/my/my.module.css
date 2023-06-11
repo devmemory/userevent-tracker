@@ -1,0 +1,16 @@
+.btn_test {
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+  border: 1px solid var(--shadow-color);
+}
+
+.div_track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+  border: 1px solid var(--shadow-color);
+}

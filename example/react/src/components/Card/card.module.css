@@ -1,0 +1,94 @@
+/* card to track */
+.div_card_track {
+  width: 260px;
+  height: 300px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 5px var(--shadow-color);
+  cursor: pointer;
+}
+
+/* - hover - */
+.div_card_track:hover > div:nth-child(1) {
+  height: 180px;
+}
+
+.div_card_track:hover > div:nth-child(1) > div {
+  display: none;
+}
+
+.div_card_track:hover > div:nth-child(2) {
+  display: flex;
+}
+/* hover */
+
+/* img */
+.div_card_track > div:nth-child(1) {
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+/* img overlay */
+.div_overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+/* overlay title */
+.div_overlay > div:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+/* overlay desc */
+.div_overlay > div:nth-child(2) {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+/* default text */
+.div_text {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  animation: topToBottm 0.5s forwards;
+}
+
+/* default title */
+.div_text > div:nth-child(1) {
+  font-size: 1.1em;
+  max-width: 100%;
+}
+
+/* default desc */
+.div_text > div:nth-child(2) {
+  font-weight: 300;
+  margin-top: 12px;
+  font-size: 0.8em;
+  color: #5c5c5c;
+}
+
+@keyframes topToBottm {
+  from {
+    transform: translateY(-200%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}

@@ -1,0 +1,47 @@
+/* nav bar */
+.div_nav {
+  height: var(--header-height);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px var(--shadow-color);
+  position: absolute;
+  top: 0;
+}
+
+/* logo img */
+.div_nav > img {
+  height: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* img hover */
+.div_nav > img:hover {
+  transform: scale(1.05);
+}
+
+/* nav btns */
+.div_nav > div {
+  display: flex;
+  margin-right: 10px;
+}
+
+/* btn distance */
+.div_nav > div > button {
+  margin: 0 10px 0 10px;
+}
+
+/* selected page */
+.div_nav > div > button[data-selected="true"] {
+  color: #c62828;
+}
+
+/* nav hover */
+.div_nav > div > button:hover {
+  color: #c62828;
+  box-shadow: 0 1px currentColor;
+  transform: translateY(-1px);
+  transition: 0.6s ease;
+}

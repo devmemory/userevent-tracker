@@ -1,0 +1,32 @@
+{
+  "name": "userevent_tracker",
+  "version": "0.0.1",
+  "description": "This library is to track users' events such as click, page, etc",
+  "scripts": {
+    "build": "rm -rf dist && tsc && tsc --build tsconfig.json",
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmemory/userevent_tracker.git"
+  },
+  "keywords": ["userevent_tracker","event tracker","tracker"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["/dist"],
+  "author": "Devmemory",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devmemory/userevent_tracker/issues"
+  },
+  "homepage": "https://github.com/devmemory/userevent_tracker#readme",
+  "contributors": [
+    {
+      "name": "Devmemory",
+      "email": "devmemorydh@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
