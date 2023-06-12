@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
-  import { tracker } from "userevent_tracker";
+  // @ts-ignore
+  import { tracker } from "userevent-tracker";
   import "./index.css";
   import Nav from "src/components/Nav.svelte";
 

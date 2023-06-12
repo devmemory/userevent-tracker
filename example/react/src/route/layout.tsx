@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Nav from "src/components/Nav";
-import { tracker } from "userevent_tracker";
+import {tracker} from "userevent-tracker";
 
 const Layout = () => {
   useEffect(() => {

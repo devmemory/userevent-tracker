@@ -20,6 +20,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"userevent_tracker": "^0.0.4"
+		"userevent-tracker": "file: ../../dist"
 	}
 }
