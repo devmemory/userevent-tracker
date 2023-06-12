@@ -2,12 +2,14 @@ import { EventModel } from "../model/EventModel";
 
 export const storeUtil = {
   setTrackData: (dataList: EventModel[]) => {
-    localStorage.setItem("td", JSON.stringify(dataList));
+    window.localStorage.setItem("td", JSON.stringify(dataList));
   },
   getTrackData: () => {
-    return JSON.parse(localStorage.getItem("td") || "[]") as EventModel[];
+    return JSON.parse(
+      window.localStorage.getItem("td") || "[]"
+    ) as EventModel[];
   },
   clearTrackData: () => {
-    localStorage.removeItem("td");
+    window.localStorage.removeItem("td");
   },
 };
