@@ -20,6 +20,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"userevent-tracker": "git://github.com/devmemory/userevent-tracker.git"
+		"userevent-tracker": "^0.0.2"
 	}
 }
