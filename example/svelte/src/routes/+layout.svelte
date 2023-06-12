@@ -2,10 +2,11 @@
   import { onMount } from "svelte";
   import "./index.css";
   import Nav from "src/components/Nav.svelte";
-  import { tracker } from "userevent-tracker";
 
   onMount(() => {
-    tracker({ showConsole: true });
+    import("userevent-tracker").then(({ tracker }) => {
+      tracker({ showConsole: true });
+    });
   });
 </script>
 
