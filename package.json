@@ -16,7 +16,12 @@
   ],
   "main": "dist/userevent-tracker.bundle.js",
   "types": "dist/index.d.ts",
-  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/userevent-tracker.bundle.js",
+      "require": "./dist/userevent-tracker.bundle.js"
+    }
+  },
   "files": [
     "dist"
   ],
